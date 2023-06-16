@@ -14,7 +14,7 @@
   }
  
 .container2 {
-    background-image: url(./image/backnew.png);
+    background-image: url(./image/newback.png);
 background-position:top;
 background-size:100% 100%;
 background-repeat: no-repeat;
@@ -26,7 +26,7 @@ background-attachment: fixed;
     color:whitesmoke;
 }
 .container2 .lastname{
-color:#CDA84F;
+color:#c7a556;
 font-weight: bolder;
 animation-name: lastnameani;
 animation-duration: 5s;   
@@ -80,7 +80,7 @@ animation-duration: 5s;
         
     }
     100%{
-        font-size: 40px;
+        font-size: 25px;
         
     }
 }
