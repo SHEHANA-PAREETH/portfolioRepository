@@ -1,0 +1,86 @@
+
+.selector-for-some-widget {
+    box-sizing: border-box;
+  }
+  .navbar{
+    font-size:20px;
+    padding: 10px;
+    background:black; 
+  }
+  .navbar-brand{
+    font-family: 'Passion One', cursive;
+    font-size: 30px;
+   
+  }
+ 
+.container2 {
+    background-image: url(/backnew.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+  
+}
+.container2 p,.container2 h1{
+    font-family: 'Dancing Script', cursive;
+    color:whitesmoke;
+}
+.container2 .lastname{
+color:#CDA84F;
+font-weight: bolder;
+animation-name: lastnameani;
+animation-duration: 5s;   
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+.myphoto {
+    mix-blend-mode:screen;
+    animation-name: move;
+    animation-duration: 15s;   
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.containerabout{
+    background-color:#CDA84F;
+}
+.containerabout p{
+    background-color:black;
+    color:white;
+    
+}
+
+
+.contactimage{
+    background-position: center;
+    background-size: cover;
+}
+.error{
+    display: flex;
+    color:red;
+    display: none;
+}
+.invalid{
+    display:flex;
+}
+@keyframes move{
+    0%{
+       
+        border-radius: 150px;
+        
+    }
+    100%{
+        border-radius: 50px 30px 20px 20px;
+        
+    }
+}
+/*@keyframes lastnameani{
+    0%{
+       
+        font-size: 17px;
+        
+    }
+    100%{
+        font-size: 40px;
+        
+    }
+}

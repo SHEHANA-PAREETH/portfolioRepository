@@ -1,0 +1,187 @@
+@media (max-width:575.98px){
+    .container2{
+        height:19rem;
+         overflow: hidden;  
+    }
+    .container2 p, .container2 h1 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+    .container2 img{
+    display: flex;
+    width:55%;
+    margin:0 auto;
+    margin-top: -5%;
+     
+    }
+    .containerabout img{
+        display: flex;
+        width:90%;
+        margin: 0 auto;
+    }
+    .containerabout p{
+        letter-spacing: normal;
+        width:100%;
+        margin:0 auto;
+        
+    }
+
+   .skillcontainer .card{
+    width:15rem;
+    margin:30px auto;
+   }
+    .containerprojects .card{
+       
+        width:15rem;
+        margin:30px auto;
+    }
+    .contactimage{
+        width:100%;
+    }}
+    @media (min-width:576px){
+        .container2{
+           height:17rem;
+           overflow: hidden;
+        }
+        .container2 p,.container2 h1{
+       margin:0 20%;
+       font-size: 1.2rem;
+        }
+        .container2 img{
+            width:100%;
+        }
+        .containerabout img{
+            display: flex;
+            width:50%;
+            margin: 0 auto;
+        }
+        .containerabout p{
+            letter-spacing: normal;
+            width:100%;
+            margin:0 auto;
+            
+        }
+        .skillcontainer{
+            
+            display: flex;
+        }
+        .skillcontainer .card{
+           margin:12px auto;
+            width:10rem;
+           
+            
+           }
+           
+    .containerprojects .card{
+       
+        width:16rem;
+        margin:30px auto;
+    }
+    
+
+.contactimage{
+    width:100%;
+}}
+@media(min-width:768px){
+
+    .container2{
+        height:20rem;
+        overflow: hidden;
+     }
+     .container2 p,.container2 h1{
+    margin:0 20%;
+    font-size: 1.6rem;
+     }
+
+    .containerabout img{
+        display: flex;
+        width:55%;
+        margin: 0 auto;
+    }
+    .containerabout p{
+        letter-spacing: 1px;
+        width:100%;
+        margin:0 auto; 
+    }  
+    .skillcontainer .card{
+        width:12rem;
+    }
+}
+@media(min-width:992px){.container2{
+    max-height:400px;
+    overflow: hidden;
+ }
+ .container2 p,.container2 h1{
+margin:0 20%;
+font-size:2rem;
+ }
+.containerprojects .card{
+    width:14.5rem;
+    
+}
+
+.containerabout img{
+    display: flex;
+    width:50%;
+    margin: 0 auto;
+}
+.containerabout p{
+    font-size: 22px;
+}
+.skillcontainer .card{
+    width:19rem;
+}}
+@media(min-width:1200px){
+    .container2{
+        height:35rem;
+        overflow: hidden;
+    }
+    .containerabout img{
+        display: flex;
+        width:40%;
+        margin: 0 auto;
+    }
+    .containerprojects .card{
+        width:17rem;
+        
+    }
+    .container2 p{
+        margin:0 20%;
+        font-size:43px;
+         }
+         .container2 h1{
+            font-size:38px;
+         }
+         .skillcontainer .card{
+            width:23rem;
+         }
+}
+@media(min-width:1400px){
+    .container2{
+        max-height:500px;
+        overflow: hidden;
+     }
+     .container2 p{
+        margin:0 20%;
+        font-size:45px;
+         }
+         .container2 h1{
+            font-size:40px;
+         }
+
+         .containerabout img{
+            display: flex;
+            width:80%;
+            margin: 0 auto;
+        }  
+        .containerabout .aboutpara{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+
+        } 
+        .containerprojects .card{
+            width:19rem;
+            
+        }   
+      }
