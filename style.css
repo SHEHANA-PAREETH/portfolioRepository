@@ -14,7 +14,7 @@
   }
  
 .container2 {
-    background-image: url(/image/backnew.png);
+    background-image: url(./image/backnew.png);
 background-position:top;
 background-size:100% 100%;
 background-repeat: no-repeat;
