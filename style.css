@@ -15,10 +15,10 @@
  
 .container2 {
     background-image: url(./image/backnew.PNG);
-background-position: center;
-background-size: cover;
+background-position:top;
+background-size:100% 100%;
 background-repeat: no-repeat;
-
+background-attachment: fixed;
   
 }
 .container2 p,.container2 h1{
