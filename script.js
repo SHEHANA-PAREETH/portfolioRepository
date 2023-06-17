@@ -82,14 +82,12 @@ let validateName=()=>{
          }
          let validateAllfields=()=>{
              validateName();
-             validateName();
+             validateEmail();
              validateMob();
              validatePassword();
              confirmPassword();
-             if(validateName()&&
-             validateName()&&
-             validateMob()&&
-             validatePassword()&&
-             confirmPassword())
+             if(validateName()&&validateEmail()&&validateMob()&&validatePassword()&&confirmPassword())
              return true;
+             else 
+             return false
          }

@@ -227,14 +227,14 @@
         <form action="https://script.google.com/macros/s/AKfycbyO5YQssq8BAN3L0EBDwlk4ltFZhPNxIGQlj8IZU8Y9Mj7PHA0XdZYQVhvUKXmMlSt6/exec" method="post" onsubmit="return validateAllfields()">
           <div class="mb-3 ">
           <label for="exampleInputName" class="form-label">User name</label>
-          <input name="fullname" class="form-control" id="exampleInputName" onblur="validateName()"></div>
+          <input name="fullname" class="form-control" id="exampleInputName"></div>
           <span class="error" id="usernameError">
             <i class="fa-solid fa-circle-exclamation" style="color: #ff0000;"></i>
             <p class="error-text ">Please enter a valid username..</p>
                       </span>
           <div class="mb-3"> 
             <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"ON onblur="validateEmail()">
+            <input name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
           </div>
           <span class="error " id="emailError">
@@ -243,7 +243,7 @@
                       </span>
                       <div class="mb-3 "> 
                         <label for="exampleInputMob" class="form-label">Mobile number</label>
-                        <input name="mobileno" class="form-control" id="exampleInputMob" aria-describedby="emailHelp"ON onblur="validateMob()">
+                        <input name="mobileno" class="form-control" id="exampleInputMob" aria-describedby="emailHelp"ON>
                         <div id="emailHelp" class="form-text">We'll never share your phone number with anyone else.</div>
                       </div>
                       <span class="error" id="mobError">
@@ -252,7 +252,7 @@
                                   </span>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input name="password" type="password" class="form-control" id="exampleInputPassword1" onblur="validatePassword()">
+            <input name="password" type="password" class="form-control" id="exampleInputPassword1">
           </div>
           <span class="error " id="passError">
             <i class="fa-solid fa-circle-exclamation" style="color: #ff0000;"></i>
@@ -261,7 +261,7 @@
         
                       <div class="mb-3">
                         <label for="exampleConfirmPassword1" class="form-label">Re-enter Password</label>
-                        <input type="password" class="form-control" id="exampleConfirmPassword1" onblur="confirmPassword()">
+                        <input type="password" class="form-control" id="exampleConfirmPassword1">
                       </div>
                       <span class="error" id="confirmpass-error" >
                         <i class="fa-solid fa-circle-exclamation" style="color: #ff0000;"></i>
